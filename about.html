@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <style>
+        body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="about-section">
+        <h1 style="color:red">About Us</h1>
+        <h2 style="color:black">Introduction</h2>
+        <p>Online Voting System is a web based voting platform that allows you to create and manage your own election. Online Voting System is much more than a platform - it's a revolution. Online voting System is what mobile banking is to cash transactions, Online Voting System is what Whatsapp is to postal department.<br><br>
+
+        Today voting means - travelling to a booth, standing there in queue for hours, getting hand inked to vote.This plateform lets voter vote directly from their electronic device, from the comforts of their homes and that also within few seconds.<br><br>
+            
+        If you have the choose between spending Rs. 30,000 Crores, 2 months and 1 Crore man days to manage election with 66% voter turnout Vs spending less than 10% cost, 10% time and 10% effort and still manage 10 times better security and close to 100% voter turnout - what would you choose?</p>
+        <p></p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="priyansh.jpeg" alt="Priyansh" style="width:100%">
+            <div class="container">
+              <h2>Priyansh Bhardwaj</h2>
+              <p class="title">Backend developer</p>
+              
+              <p>Priyansh.20B0121168@abes.ac.in</p>
+              <p><a href="tel:+91 8755814590"><button class="button">+91 8755814590</button></a></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="piyush.png" alt="Piyush" style="width:100%">
+            <div class="container">
+              <h2>Piyush Verma</h2>
+              <p class="title">Fullstack developer</p>
+            
+              <p>Piyush.20B0121068@abes.ac.in</p>
+              <p><a href="tel:+91 8887844474"><button class="button">+91 8887844474</button></a></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="mohitsingh.jpg" alt="Mohit" style="width:100%">
+            <div class="container">
+              <h2>Mohit Singh Chauhan</h2>
+              <p class="title">Project Management</p>
+             
+              <p>Mohit.20B0121041@abes.ac.in</p>
+              <p><a href="tel:+91 9870667697"><button class="button">+91 9870667697</button></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+</body>
+</html>
